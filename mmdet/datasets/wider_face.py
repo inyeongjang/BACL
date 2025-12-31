@@ -1,5 +1,5 @@
 import os.path as osp
-import xml.etree.ElementTree as ET
+import defusedxml.ElementTree as ET  # Use defusedxml for secure XML parsing
 
 import mmcv
 
